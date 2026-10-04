@@ -150,8 +150,9 @@ button[data-testid="stBaseButton-primaryFormSubmit"]:hover {
     border: 1px solid rgba(46, 125, 50, 0.25);
     border-radius: 14px;
     padding: 0.7rem 0.8rem;
-    margin-bottom: 0.2rem;
+    margin-bottom: 1rem !important;
 }
+[data-testid="stSidebar"] .stButton {margin-top: 0.4rem;}
 .avatar {
     width: 42px; height: 42px; min-width: 42px;
     border-radius: 50%;
