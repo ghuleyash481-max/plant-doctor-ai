@@ -26,7 +26,7 @@ CUSTOM_CSS = """
 /* hide default Streamlit menu/footer (keep header so sidebar toggle works) */
 #MainMenu, footer {visibility: hidden;}
 
-.block-container {padding-top: 2rem; padding-bottom: 6rem; max-width: 820px;}
+.block-container {padding-top: 4.5rem; padding-bottom: 6rem; max-width: 820px;}
 
 /* consistent vertical rhythm between elements */
 [data-testid="stVerticalBlock"] {gap: 0.9rem;}
@@ -75,7 +75,7 @@ CUSTOM_CSS = """
 .app-title {
     font-size: 2.1rem;
     font-weight: 800;
-    background: linear-gradient(90deg, #1b5e20, #66bb6a);
+    background: linear-gradient(90deg, #43a047, #81c784);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     line-height: 1.2;
@@ -136,9 +136,11 @@ button[data-testid="stBaseButton-primaryFormSubmit"]:hover {
 
 /* ---- sidebar ---- */
 [data-testid="stSidebar"] {border-right: 1px solid rgba(46, 125, 50, 0.2);}
-.side-brand {font-size: 1.4rem; font-weight: 800; color: #2e7d32;}
+.side-brand {font-size: 1.4rem; font-weight: 800; color: #4caf50;}
 .side-brand {margin-top: -0.5rem;}
-.side-tagline {font-size: 0.8rem; opacity: 0.7; margin: -0.4rem 0 0.6rem 0;}
+[data-testid="stSidebarUserContent"] {padding-top: 1rem;}
+[data-testid="stExpander"] li {font-size: 0.92rem; line-height: 1.5;}
+.side-tagline {font-size: 0.8rem; opacity: 0.7; margin: 0 0 0.6rem 0;}
 [data-testid="stSidebar"] [data-testid="stVerticalBlock"] {gap: 0.7rem;}
 [data-testid="stExpander"] {border-radius: 12px; margin-top: 0.2rem;}
 [data-testid="stExpander"] ul {margin-bottom: 0; padding-left: 1.2rem;}
